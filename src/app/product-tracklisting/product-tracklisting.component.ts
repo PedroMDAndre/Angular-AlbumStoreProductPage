@@ -9,7 +9,8 @@ import { ProductService } from "../product.service"
   styleUrls: ['./product-tracklisting.component.css']
 })
 export class ProductTracklistingComponent implements OnInit {
-  albumIfo: Album;
+  
+  albumInfo: Album;
 
   constructor(private _http: Http,
     private _productService: ProductService) { }
